@@ -1,8 +1,6 @@
-# Comandos SQL - Referência
+# Sistema de cadastro de fornecedor e produto
 
-## Modelagem física
-
-### Criar Banco de dados
+### Criaçao do Banco de dados
 ```sql
 
 CREATE DATABASE sistema CHARACTER SET utf8mb4;
@@ -55,14 +53,3 @@ CREATE TABLE produtos (
 
 ``` 
 
-<!-- ___________________________________________ -->
-
-### Expressão SQL para cadastrar um usuário
-```sql
-
--- Expressão SQL para cadastrar um usuário
-INSERT INTO usuarios (usuario, senha) VALUES ('Ignacio', MD5('123'));
-INSERT INTO usuarios (usuario, senha) VALUES ('Valmir', MD5('123'));
-
-
-``` 
